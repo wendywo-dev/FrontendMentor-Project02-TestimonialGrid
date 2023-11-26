@@ -13,7 +13,7 @@ body {
 }
 
 #testimonial-container {
-    padding: 15% 4%;
+    padding: 15% 4% 4% 4%;
 }
 
 #testimonial-1 {
@@ -95,11 +95,17 @@ body {
     opacity: 70%;
 }
 
+.attribution {
+
+    margin: 0 auto;
+    text-align: center;
+}
+
 @media (min-width: 576px) {
 
     #testimonial-container {
         display: flex;
-        width: 1200px;
+        width: 1000px;
         margin: 0 auto;
     }
 
@@ -131,6 +137,8 @@ body {
         margin: 10px;
     }
 
-
+.attribution {
+    text-align: center;
+}
 
 }
